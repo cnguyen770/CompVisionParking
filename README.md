@@ -36,11 +36,6 @@ This project utilizes computer vision and machine learning to detect parking spo
     cd CompVisionParking
     ```
 
-2. Install the required libraries:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 
@@ -49,12 +44,11 @@ This project utilizes computer vision and machine learning to detect parking spo
 To train the image classification model:
 
 ```bash
-python src/train_model.py
+python src/model/ImgClass.py
 ```
 
 Running the Real-Time Detection
 To start the real-time parking spot detection:
 
 ```bash
-python src/detect_parking_spots.py
-```
+python src/main.py
