@@ -1,0 +1,60 @@
+# Parking Spot Detection with Machine Learning
+
+![Parking Spot Detection](#) <!-- Place your image here -->
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+
+## Introduction
+
+This project utilizes computer vision and machine learning to detect parking spots in real-time. The goal is to provide a robust solution for monitoring parking spaces using image classification techniques.
+
+## Features
+
+- Detects parking spots in real-time using a trained image classification model.
+- High accuracy in varied lighting conditions and different parking lot layouts.
+- Easily adaptable to different environments and camera setups.
+
+## Installation
+
+### Prerequisites
+
+- Python 3.x
+- Required Python libraries: `numpy`, `opencv-python`, `scikit-learn`, `skimage`
+- Git
+
+### Steps
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/cnguyen770/CompVisionParking.git
+    cd CompVisionParking
+    ```
+
+2. Install the required libraries:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+### Training the Model
+
+To train the image classification model:
+
+```bash
+python src/train_model.py
+```
+
+Running the Real-Time Detection
+To start the real-time parking spot detection:
+
+```bash
+python src/detect_parking_spots.py
+```
