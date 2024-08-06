@@ -1,6 +1,6 @@
 # Parking Spot Detection with Machine Learning
 
-![Parking Spot Detection](#) <!-- Place your image here -->
+![Parking Spot Detection](https://github.com/cnguyen770/CompVisionParking/blob/master/visual.png)
 
 ## Table of Contents
 
